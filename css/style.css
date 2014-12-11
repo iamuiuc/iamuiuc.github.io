@@ -1,0 +1,526 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #F7F5F2;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of css reset */
+
+
+#IAMlogo {
+	padding-top: 30px;
+	width: 250px;
+	height: 166px;
+	margin: auto;
+}
+
+#navigation {
+	width: 900px;
+	height: 70px;
+	margin: auto;
+	background-color: #F7F5F2;
+	opacity: 0.9;
+	padding-top:20px;
+	z-index: 1000;
+}
+
+#navigation li ul{
+	z-index: 10;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+
+#navigation > li {
+	font-family: 'Lato', Sans-Serif;
+	font-size: 1.05em;
+	font-weight: 300;
+	text-transform: uppercase;
+	width: 120px;
+	text-align: center;
+	float: left;
+	position: relative;
+	padding: 10px;
+}
+
+#navigation > li > ul {
+	font-family: 'Lato', Sans-Serif;
+	text-align: left;
+	width: 120px;
+	font-size: 0.8em;
+	line-height: 3em;
+	text-transform: capitalize;
+	padding-top: 15px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #F7F5F2;
+	float: left;
+}
+
+h3 {
+	color: #3E454C;
+}
+
+#navigation > li.active {
+	color: #3E454C;
+}
+
+#navigation > li.active h3 {
+	color: #3E454C;
+}
+
+a:link {
+    color: #3E454C;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #3E454C;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF7F66;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #3E454C;
+    text-decoration: none;
+}
+
+#iamgif {
+	margin: auto;
+	width: 800px;
+	height: 383px;
+	text-align: center;
+	z-index: -100;
+}
+
+
+#about {
+	padding-top: 200px;
+	background-color: #F7F5F2;
+	min-width: 100%;
+	height: 1300px;
+	margin: auto;
+	text-align: center;
+}
+
+.aboutTitle {
+	width: 600px;
+	margin:auto;
+	font-family: 'Lato', Sans-serif;
+	font-size: 1.5em;
+	color: #1C1D21;
+	text-align: center;
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-weight:300;
+}
+
+.IAMVideo {
+	width: 600px;
+	height: 374px;
+	padding: 20px;
+}
+
+
+
+.aboutBody1 {
+	color: #3E454C;
+	width: 700px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 1.3em;
+	font-family: 'Lato', Sans-Serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.aboutBody2 {
+	color: #3E454C;
+	width: 700px;
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	line-height: 1.3em;
+	font-family: 'Lato', Sans-Serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+
+
+
+#clients {
+	padding-top: 80px;
+	min-width: 100%;
+	height: 700px;
+	margin: auto;
+	text-align: center;
+}
+
+.clientTitle {
+	width: 600px;
+	padding-top: 40px;
+	margin:auto;
+	font-family: 'Lato', Sans-serif;
+	font-size: 1.5em;
+	color: #1C1D21;
+	text-align: center;
+	font-size: 1.7em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-weight:300;
+}
+
+
+#logos {
+	width: 800px;
+	margin:auto;
+	padding-top: 130px;
+	text-align:center;
+}
+
+.logoIndividual {
+	float: left;
+	padding: 20px;
+}
+
+
+
+
+
+
+#recruiting {
+	padding-top: 80px;
+	background-color: #F7F5F2;
+	min-width: 100%;
+	height: 3000px;
+	margin: auto;
+	text-align: center;
+}
+
+.recruitingTitle {
+	width: 600px;
+	padding-top: 40px;
+	margin:auto;
+	font-family: 'Lato', Sans-serif;
+	color: #1C1D21;
+	font-size: 1.7em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-weight:300;
+	text-align: center;
+}
+
+.recruitingLink {
+	font-family: 'Lato', Sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	padding-bottom: 30px;
+	padding-top: 40px;
+	width: 600px;
+	color: #2185C5;
+	margin: auto;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+.recruitingLink > a:link {
+    text-decoration: underline;
+    font-family: 'Lato', Sans-serif;
+	color: #2185C5;
+}
+
+.recruitingLink > a:hover {
+ 	text-decoration: underline;
+    font-family: 'Lato', Sans-serif;
+	color: #2185C5;
+}
+
+.recruitingLink > a:visited {
+ 	text-decoration: underline;
+    font-family: 'Lato', Sans-serif;
+	color: #2185C5;
+}
+
+.recruitingLink > a:active {
+ 	text-decoration: underline;
+    font-family: 'Lato', Sans-serif;
+	color: #2185C5;
+}
+
+.recruitingTitleOne {
+	color: #FF7F66;
+	width: 600px;
+	margin: auto;
+	font-family: 'Lato', Sans-Serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: center;
+	padding:10px;
+}
+
+.recruitingTitleTwo {
+	color: #3E454C;
+	width: 600px;
+	margin: auto;
+	font-family: 'Lato', Sans-Serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	text-align: center;
+	padding-top:10px;
+}
+
+.bar {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.lastbar {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+
+.recruitingBody {
+	color: #3E454C;
+	width: 600px;
+	margin: auto;
+	padding-top: 5px;
+	padding-bottom:8px;
+	line-height: 1.5em;
+	font-family: 'Lato', Sans-Serif;
+	font-size: 1.1em;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+.recruitingTitle2 {
+	color: #FF7F66;
+	width: 600px;
+	margin: auto;
+	font-family: 'Lato', Sans-Serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: center;
+}
+
+#contact{
+	padding-top: 80px;
+	background-color: #F7F5F2;
+	min-width: 100%;
+	height: 600px;
+	margin: auto;
+	text-align: center;
+	}
+
+.contactTitle {
+	width: 600px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin:auto;
+	font-family: 'Lato', Sans-serif;
+	font-size: 1.5em;
+	color: #1C1D21;
+	text-align: center;
+	font-size: 1.7em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-weight:300;
+}
+
+
+.contactTitle2 {
+	color: #FF7F66;
+	width: 300px;
+	margin: auto;
+	font-family: 'Lato', Sans-Serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	text-align: left;
+	padding-top: 20px;
+}
+
+.contactBody {
+	color: #3E454C;
+	width: 300px;
+	margin: auto;
+	line-height: 1.5em;
+	font-family: 'Lato', Sans-Serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	text-align: center;
+	margin-top: -23px;
+	text-align: right;
+}
+
+.hover {
+	padding: 20px;
+	margin: auto;
+}
+
+
+#photoTitle {
+	width: 600px;
+	padding-top: 40px;
+	margin:auto;
+	font-family: 'Lato', Sans-serif;
+	font-size: 1.5em;
+	color: #FF7F66;
+	text-align: center;
+	font-size: 1.7em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-weight:300;
+}
+
+#photoTitle2 {
+	width: 600px;
+	padding-top: 40px;
+	margin:auto;
+	font-family: 'Lato', Sans-serif;
+	font-size: 1.5em;
+	color: #2185C5;
+	text-align: center;
+	font-size: 1.7em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-weight:300;
+}
+
+#description {
+	width: 700px;
+	padding: 20px;
+	margin:	auto;
+	font-family: 'Lato', Sans-serif;
+	font-size: 1.3em;
+	color: #1C1D21;
+	letter-spacing: 0.03em;
+	text-align: center;
+	font-weight:300;
+}
+
+
+#photo {
+	margin: auto;
+	height: 1000px;
+	text-align: center;
+}
+
+#photoAe {
+	margin: auto;
+	text-align: center;
+	height: 2100px;
+}
+
+#photoCreative {
+	margin: auto;
+	text-align: center;
+	height: 1800px;
+}
+
+#photoMe {
+	margin: auto;
+	text-align: center;
+	height: 2600px;
+}
+
+#photoOperation {
+	margin: auto;
+	text-align: center;
+	height: 1400px;
+}
+
+#president {
+	width: 500px;
+	margin: auto;
+	padding: 60px;
+}
+
+#intro {
+	color: #3E454C;
+	width: 700px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	line-height: 1.3em;
+	font-family: 'Lato', Sans-Serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	text-align: center;
+}
+
+#intro > p {
+	padding: 10px;
+}
+
+.introitalic {
+	font-style: italic;
+}
+
+#Director {
+	padding-bottom: 40px;
+}
+
+#staff1 {
+	padding-top: 40px;
+}
